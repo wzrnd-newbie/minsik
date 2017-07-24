@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-NetworkDF = pd.read_csv('log/(after) Network measures features.csv')
-PinfoDF = pd.read_csv('log/(after) Player information features.csv')
+NetworkDF = pd.read_csv('../log/(after) Network measures features.csv')
+PinfoDF = pd.read_csv('../log/(after) Player information features.csv')
 
 NetworkHumanDF = NetworkDF.loc[NetworkDF['Type'] == "Human"]
 NetworkBotDF = NetworkDF.loc[NetworkDF['Type'] == "Bot"]
